@@ -3,16 +3,17 @@ Author: Hemal Karmakar
 Institution: Oklahoma State University
 Program: Masters in Qunatitative Finance
 '''
+
 '''
 This python class constructs portfolio of :
         - maximum Sharpe ratio,
         - minimum variance,
         - minimum risk at a target return level,
         - maximum Sharpe ratio at a target risk level &
-        - efficnet frontier. 
-        
+        - efficnet frontier.     
 *** On line 19, change the filepath for the CSV provided 
 '''
+
 # Import libraries 
 from scipy.optimize import minimize
 import matplotlib.pyplot as plt
