@@ -1,4 +1,9 @@
 '''
+Author: Hemal Karmakar
+Institution: Oklahoma State University
+Program: Masters in Qunatitative Finance
+'''
+'''
 This python class constructs portfolio of :
         - maximum Sharpe ratio,
         - minimum variance,
