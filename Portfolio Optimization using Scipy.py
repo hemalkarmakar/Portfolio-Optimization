@@ -2,6 +2,7 @@
 Name: Hemal Karmakar
 - Oklahoma State University
 - Master of Science in Qunatitative Finance
+- hemal.karmakar@okstate.edu
 '''
 
 '''
