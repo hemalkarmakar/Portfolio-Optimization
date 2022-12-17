@@ -1,7 +1,7 @@
 '''
-Author: Hemal Karmakar
-Institution: Oklahoma State University
-Program: Masters in Qunatitative Finance
+Name: Hemal Karmakar
+- Oklahoma State University
+- Masters in Qunatitative Finance
 '''
 
 '''
@@ -22,7 +22,7 @@ import pandas as pd
 import numpy as np
 
 # Import tickers from csv file
-tickerfile = 'C:/Users/hemal/OneDrive/Desktop/Portfolio ticker list.csv'
+tickerfile = 'https://raw.githubusercontent.com/hemalkarmakar/Portfolio-Optimization/main/Portfolio%20ticker%20list.csv'
 tickerDF = pd.read_csv(tickerfile)
 ticker_list = tickerDF.stack().tolist()
 
