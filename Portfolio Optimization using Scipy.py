@@ -1,7 +1,7 @@
 '''
 Name: Hemal Karmakar
 - Oklahoma State University
-- Masters in Qunatitative Finance
+- Master of Science in Qunatitative Finance
 '''
 
 '''
