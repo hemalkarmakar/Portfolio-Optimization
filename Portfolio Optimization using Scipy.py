@@ -12,7 +12,6 @@ This python class constructs portfolio of :
         - minimum risk at a target return level,
         - maximum Sharpe ratio at a target risk level &
         - efficnet frontier.     
-*** On line 19, change the filepath for the CSV provided 
 '''
 
 # Import libraries 
