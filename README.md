@@ -8,7 +8,7 @@ This python class constructs portfolio of:
 - minimum variance,
 - minimum risk at a target return level,
 - maximum Sharpe ratio at a target risk level &
-- efficnet frontier.
+- efficinet frontier.
 
 
-** The sole purpose of this project is to be able to use Python in Finance. The construction of the portfolio itself is not completely accurate and can be used to make real investment decision **
+** The sole purpose of this project is to demonstrate the use of Python in Finance. The construction of the portfolio itself is not completely accurate, therefore, not suitable for making real investment decision **
