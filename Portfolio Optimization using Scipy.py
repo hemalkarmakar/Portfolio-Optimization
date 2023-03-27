@@ -22,8 +22,8 @@ import pandas as pd
 import numpy as np
 
 # Import tickers from csv file
-tickerfile = 'https://raw.githubusercontent.com/hemalkarmakar/Portfolio-Optimization/main/Portfolio%20ticker%20list.csv'
-tickerDF = pd.read_csv(tickerfile)
+tickerfilepath = 'https://raw.githubusercontent.com/hemalkarmakar/Portfolio-Optimization/main/Portfolio%20ticker%20list.csv'
+tickerDF = pd.read_csv(tickerfilepath)
 ticker_list = tickerDF.stack().tolist()
 
 class PortfolioOptimization(object):  
