@@ -1,7 +1,7 @@
 '''
 Name: Hemal Karmakar
 - Oklahoma State University
-- Master of Science in Qunatitative Finance
+- Master of Science in Quantitative Finance
 - hemal.karmakar@okstate.edu
 '''
 
@@ -11,7 +11,7 @@ This python class constructs portfolio of :
         - minimum variance,
         - minimum risk at a target return level,
         - maximum Sharpe ratio at a target risk level &
-        - efficnet frontier.     
+        - efficient frontier.     
 '''
 
 # Import libraries 
