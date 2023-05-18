@@ -3,7 +3,7 @@
 # - Master of Science in Quantitative Finance
 # - hemal.karmakar@okstate.edu
 
-# This python class constructs portfolio of :
+# This R class constructs portfolio of :
 #         - maximum Sharpe ratio,
 #         - minimum variance,
 #         - minimum risk at a target return level,
