@@ -9,3 +9,13 @@
 #         - minimum risk at a target return level,
 #         - maximum Sharpe ratio at a target risk level &
 #         - efficient frontier.
+
+# Import libraries
+library(purrr)
+
+# Import tickers from csv file
+tickerfilepath <- 'https://raw.githubusercontent.com/hemalkarmakar/Portfolio-Optimization/main/Portfolio%20ticker%20list.csv'
+tickerDF <- read.csv(tickerfilepath)
+ticker_list <- replace(tickerDF, tickerDF == "", NaN)
+
+
