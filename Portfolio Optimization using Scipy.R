@@ -26,13 +26,12 @@ end_date <- Sys.Date()  # Today
 #data <- getSymbols('AAPL', from = start_date, to = end_date)
 #stk_Returns <- c(NA, diff(AAPL$AAPL.Close) / lag(AAPL$AAPL.Close))
 
+logReturns <- data.frame()
+
 for (tic in ticker_list)
   {
   data <- getSymbols(tic, from = start_date, to = end_date)
-
-  
-  stk_ret <- diff(data$FVX.Close) / lag(data$FVX.Close)
-  
+  stk_ret <- diff(data$tic.Close) / lag(data$tic.Close)
   }
 
   self.logReturns [tic] = np.log(returns).dropna()
