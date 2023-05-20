@@ -19,18 +19,25 @@ tickerfilepath <- 'https://raw.githubusercontent.com/hemalkarmakar/Portfolio-Opt
 tickerDF <- read.csv(tickerfilepath)
 ticker_list <- as.list(tickerDF)
 
-#getSymbols("AAPL", from = "2018-05-19", to = "2023-05-19")
-
 # Set the start and end dates
 start_date <- Sys.Date() - 5*365  # 5 years ago
 end_date <- Sys.Date()  # Today
 
+#data <- getSymbols('AAPL', from = start_date, to = end_date)
+#stk_Returns <- c(NA, diff(AAPL$AAPL.Close) / lag(AAPL$AAPL.Close))
+
 for (tic in ticker_list)
   {
-  data = getSymbols(tic, from = start_date, to = end_date)}
+  data <- getSymbols(tic, from = start_date, to = end_date)
+
   
-  returns = data/data.shift(1)
+  stk_ret <- diff(data$FVX.Close) / lag(data$FVX.Close)
+  
+  }
+
   self.logReturns [tic] = np.log(returns).dropna()
   }
+
+
 
 
