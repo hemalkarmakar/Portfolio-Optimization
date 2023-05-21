@@ -30,7 +30,12 @@ logReturns <- data.frame()
 
 for (tic in ticker_list)
   {
-  data <- getSymbols(tic, from = start_date, to = end_date)
+  data <- getSymbols(c(tic), from = start_date, to = end_date)
+  xts_obj <- list(tic)
+  column_data <- xts_obj[[tic]]$Close
+  
+  }
+
   stk_ret <- diff(data$tic.Close) / lag(data$tic.Close)
   }
 
