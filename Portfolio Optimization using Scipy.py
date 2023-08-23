@@ -196,5 +196,3 @@ class PortfolioOptimization(object):
         plt.xlabel('Volatility (per year)')
         plt.ylabel('Return (per year)')
         plt.show()
-
-PortfolioOptimization().logReturns
