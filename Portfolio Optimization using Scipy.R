@@ -23,10 +23,6 @@ ticker_list <- as.list(tickerDF)
 start_date <- Sys.Date() - 5*365  # 5 years ago
 end_date <- Sys.Date()  # Today
 
-#data <- getSymbols('AAPL', from = start_date, to = end_date)
-#stk_Returns <- c(NA, diff(AAPL$AAPL.Close) / lag(AAPL$AAPL.Close))
-
-#logReturns <- data.frame()
 
 for (tic in ticker_list)
   {
