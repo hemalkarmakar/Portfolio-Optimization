@@ -3,6 +3,7 @@ Name: Hemal Karmakar
 - Oklahoma State University
 - Master of Science in Quantitative Finance
 - hemal.karmakar@okstate.edu
+- hemalk@arizona.edu
 '''
 
 '''
@@ -196,3 +197,4 @@ class PortfolioOptimization(object):
         plt.xlabel('Volatility (per year)')
         plt.ylabel('Return (per year)')
         plt.show()
+
